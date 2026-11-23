@@ -62,6 +62,7 @@ inputs:
     indicator_id_map: indicator_id_map.yml
     code_map: code_map.csv
     meta_map: meta_map.yml
+    units_meta_field: unit
   - class: InputSdmxMeta
     meta_suffix: __GLOBAL
        
@@ -87,6 +88,7 @@ translations:
   - class: TranslationInputPx
     indicator_id_map: indicator_id_map.yml
     meta_map: meta_map.yml
+    units_meta_field: unit
 
 # Reporting status extra fields
 # -----------------------------
