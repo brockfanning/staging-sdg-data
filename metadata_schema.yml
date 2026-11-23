@@ -405,7 +405,7 @@ prose:
             label: Definition and concepts
             translation_key: metadata_fields.STAT_CONC_DEF
             scope: national
-      - name: UNIT_MEASURE
+      - name: unit
         field:
             element: text
             label: Unit of measure
